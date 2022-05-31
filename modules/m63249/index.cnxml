@@ -1,0 +1,71 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:bib="http://bibtexml.sf.net/">
+
+<title>Paramagnetism och negativa temperaturer</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63249</md:content-id>
+  <md:title>Paramagnetism och negativa temperaturer</md:title>
+  <md:abstract>We use the two-level system of a spin 1/2 particle in a magnetic field to connect the thermodynamic β (coldness) with the kelvin scale. Also negative temperatures are discussed.</md:abstract>
+  <md:uuid>73961e6f-093e-49db-a555-7c5e2e571d94</md:uuid>
+</metadata>
+
+<content>
+  <para id="delete_me">De enklaste systemen är system med bara två tillstånd för varje delsystem <cite target-id="MooreAmJP">(Moore 1997)</cite>. Ett exempel är partiklar med spinn 1/2 i ett magnetfält: kvantmekaniskt har varje spinn endast två möjligheter: upp eller ner. Energiskillnaden mellan dessa tillstånd är 2μB, där μ är dipolmomentet och B är magnetfältet. </para><para id="eip-2">Systemet har lägst energi när varje spinn har lägst energi. Det är grundtillståndet, där magnetiseringen är mättad. Det finns bara ett sådant tillstånd, Ω = 1. För högre energier kan det finnas fler tillstånd. Betrakta till exempel ett system med fyra spinns. Då finns det fyra mikrotillstånd med näst-högre energi: ↓↑↑↑, ↑↓↑↑, ↑↑↓↑ och ↑↑↓↑, Ω = 4. Antalet ges av binomialkoefficienterna, samma tal som man får när man skriver ut (<foreign>a</foreign>+<foreign>b</foreign>)<sup><foreign>N</foreign></sup> i sina termer. För tillståndet med magnetisering noll finns flest mikrotillstånd: ↓↓↑↑, ↑↓↓↑, ↓↑↑↓, ↑↑↓↓, ↑↓↑↓ och ↓↑↓↑, Ω = 6. </para><section id="eip-499"><title>Curies lag</title>
+<para id="eip-974">Antalet mikrotillstånd Ω följer binomialfördelningen. Den är symmetrisk. För ännu högre energier än magnetisering noll går antalet tillstånd ner igen. För högst möjliga energi finns bara ett tillstånd, när alla sajter har omvänt spinn, Ω = 1. Det innebär alltså att ändringen av Ω med energi är negativ. Därmed skulle även β vara negativ. Nu hade vi bara definierad β för värmebad, så vi ska betrakta ett stort spinnsystem. Då övergår den diskreta binomialfördningen i normalfördelningen, Gausskurvan. Den är kontinuerlig och därmed kan man ta derivatan.</para><figure id="Paramagnetisk"><media id="magpic" alt="gaussians">
+    <image mime-type="image/svg+xml" src="../../media/Paramagnetic.svg"/>
+  </media>
+  
+<caption>Ett magnetiskt system av 400 spinns med två nivåer. Övre grafen visar binomialfördelningen. Det största antalet mikrotillstånd inträffar vid N=200, där magnetiseringen är noll. Därunder plottas fördelningen på logaritmisk skala (brun) i jämförelse med Gausskurvan (blå). Inset visar β <foreign>coldness</foreign> och temperatur, som båda blir negativa när den magnetiseringen är motsatt fältet. 
+  </caption></figure><para id="eip-442">Det är derivatan med hänseende till energi som är av intresse. Energi är proportionell mot magnetiseringen och magnetiseringen ges av skillnaden mellan antalen spinn-upp och spinn-ner. Vi betraktar området där magnetiseringen är liten, nära normalfördelningens  maximum. Om man använder att β är lika med derivatan av logaritmen av Ω, blir matematiken mycket enkel. Logaritmen av Gausskurvan är parabolisk, se figur. Dess derivata är en rät linje. I området där normalfördelningen är en bra approximation finns alltså ett linjärt samband mellan β och magnetisering. Magnetiseringen tilltar proportionellt mot kyligheten   β.</para></section>
+<para id="eip-6">Härmed kan vi se vad denna termodynamiska β är i mer konventionella termer. Experimentellt är sambandet mellan magnetiseringen och temperatur känt som Curies lag för paramagnetism. Den säger att den magnetiska susceptibiliteten är proportionell mot 1/<foreign>T</foreign>, där <foreign>T</foreign> är absolut temperatur. Så vi kan likställan β = 1/(<foreign>kT</foreign>) där konstantens värde ges av att vattnets trippelpunkt definierad som 273,16 kelvin.</para>
+<section id="eip-830"><title>Negativ temperatur</title><para id="eip-848">Vi ser att magnetiseringen och β minskar när temperaturen blir högre. När temperaturen går mot oändligt hög, går båda magnetiseringen och β mot noll. Det innebär att systemet överför spontant värmeenergi till vilket annat vanligt system som helst. Det minskar inte spinnsystemets multiplicitet, ökar det andra systemets, så att total Ω ökar.</para>
+<para id="eip-523">Det finns också ett område till höger om nollgenomgången, där β blir negativ. En negativ β är inget problem, den är fortfarande proportionell mot magnetiseringen. Storheten beter sig också som kylighet: om det blir kontakt med ett annat system, flödar energin spontant till systemet med större kylighet.</para><para id="eip-961">Problemet är bara att temperatur som 1/β blir negativ <cite target-id="GarrodColdness">(Garrod 1995)</cite>. Matematiskt är det orimligt att ha negativa temperaturer bortom oändligt höga temperaturer <cite target-id="MooreAmJP">(Moore 1997)</cite>. Men sådant händer bara i system där energin har ett maximum. Sådana system är sällsynta, oftast är det magnetiska system. På något sått finns det alltid en koppling till konventionella system, som alltid har en positiv β och positiv temperatur. Det betyder att system med negativ temperatur inte kan vara i jämvikt med vanliga system. Vanligtvis tar det inte lång tid för ett spinnsystem att komma i jämvikt med rörelseenergi. Därmed försvinner magnetiseringen och spinnsystemet får en positiv temperatur.</para><para id="eip-165">Hur kan man då åstadkomma spinnsystem med negativ temperatur? Enkelt: i ett starkt magnetfält kyler man ner materialet som spinnsystemet är en del av och som det är i termisk kontakt med. Så får även spinnsystemet en låg temperatur och en magnetisering. Vid tillräckligt låg temperatur kan man komma nära spinnsystemets mättnadsmagnetisering. Sedan vänder man på magnetfältet. Då har även spinnsystemets β och dess temperatur bytt tecken och blivit negativ. Energi börjar flöda från spinnsystemet till materialet som det är en del av. (Man kan också använda en liknande metod för att kyla materialet: adiabatisk demagnetisering.)</para></section>
+<section id="eip-827"><title>Övningar</title><para id="eip-844"/></section><exercise id="eip-97"><problem id="eip-475">
+  <para id="eip-21">
+    Bestäm β av en gaussfördelning utan att använda logaritmer.
+  </para>
+</problem>
+
+<solution id="eip-573">
+  <para id="eip-734">
+    Insert Solution Text Here
+  </para>
+</solution>
+</exercise><exercise id="eip-443"><problem id="eip-374">
+  <para id="eip-20">Vad händer med fördelningens bredd när antalet spinns blir större? Hur bred är den när antalet spinns är 10<sup>23</sup>?
+  </para></problem>
+
+<solution id="eip-174">
+  <para id="eip-362">
+    Insert Solution Text Here
+  </para>
+</solution>
+</exercise><exercise id="eip-180"><problem id="eip-178">
+  <para id="eip-83">
+    Curies lag ger susceptibiliteten, innebär alltså att magnetiseringen är proportionell mot magnetfältet. Visa att det för höga temperaturer stämmer med vår modell.
+  </para>
+</problem>
+
+<solution id="eip-659">
+  <para id="eip-777">
+    Insert Solution Text Here
+  </para>
+</solution>
+</exercise></content>
+
+<bib:file> 
+  <bib:entry id="MooreAmJP"><bib:article>
+        <bib:author>T.A. Moore; D.V. Schroeder</bib:author>
+        <bib:title>A different approach to introducing statistical mechanics</bib:title>
+        <bib:journal>Am. J. Phys.</bib:journal>
+        <bib:year>1997</bib:year>
+        <bib:volume>65</bib:volume>
+        <bib:pages>26</bib:pages>
+  </bib:article>
+</bib:entry>
+<bib:entry id="GarrodColdness"> 
+        <bib:book> 
+           <bib:author>C. Garrod</bib:author> 
+               <bib:title>Statistical Mechanics and Thermodynamics</bib:title> <bib:publisher>Oxford University Press</bib:publisher> <bib:year>1995</bib:year> </bib:book> </bib:entry>  
+</bib:file>
+
+</document>

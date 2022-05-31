@@ -1,0 +1,106 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Boltzmannfaktorn (med en enkel härledning)</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63204</md:content-id>
+  <md:title>Boltzmannfaktorn (med en enkel härledning)</md:title>
+  <md:abstract>The Boltzmann factor is obtained by a constant-<foreign>T</foreign> derivation. Empirical data about the variation of barometric pressure with height show that the value of beta (β=1/<foreign>kT</foreign>) is approximately 4 %/meV at ordinary temperatures.</md:abstract>
+  <md:uuid>42302521-7880-4a66-979f-9d0e4bbe6ae6</md:uuid>
+</metadata>
+
+<content>
+  <section id="eip-249"><title>Boltzmannfaktor - en enkel härledning</title><para id="eip-762">Boltzmannfaktorn har ni nog sett. Den spelar en viktig roll, inte bara i fysik utan även i kemi och biologi (Arrhenius ekvation) och elektronik (diodekvationen). Faktorn ser ut så här:
+</para><equation id="eip-555"><m:math>
+<m:apply><m:approx/><m:apply><m:csymbol definitionURL="http://cnx.rice.edu/cd/cnxmath.ocd#probability"/><m:ci>E</m:ci></m:apply><m:apply><m:exp/><m:apply><m:minus/><m:apply><m:times/><m:ci>β</m:ci><m:ci>E</m:ci></m:apply></m:apply></m:apply></m:apply>
+</m:math></equation><para id="eip-462">Här är Pr[<foreign>E</foreign>] sannolikheten att ett visst mikrotillstånd med energi <foreign>E</foreign> förekommer. Det är en negativ exponentiell fördelning där β är en parameter som beror på temperatur. Vi ska se att det är samma β som i föregående modul, den relativa ändringen i multiplicitet med energi. Data om atmosfären kan ge information om hur stor β är och man kan likställa β = 1/<foreign>kT</foreign>.</para><figure id="heat-bath"><media id="dogpic" alt="Ett litet system i ett värmebad">
+    <image mime-type="image/png" src="../../media/Heat_bath.png" width="600"/>
+  </media>
+  
+<caption>Ett litet system i ett värmebad med konstant temperatur β.
+  </caption></figure><para id="eip-38">I förra avsnittet betraktade vi två makroskopiska system i termisk kontakt med varandra och fann att β är den relativa ändringen i Ω med energi. Nu ska vi betrakta ett litet system som är inbäddat i ett mycket större system. Skillnaden är så stor att en ändring i det lilla systemets energi inte påverkar det stora systemets temperatur. Det stora systemet fungerar som ett värmebad, en energireservoar med konstant temperatur. Eventuellt kan det vara smältande is till exempel, så att temperaturen inte ändras när värmeenergi flödar till eller från värmebadet.   </para><para id="eip-514">Det lilla systemet kan vara så litet att det inte har en temperatur. Det finns bara ett energispektrum. För enkelhetens skull kan vi anta att varje energinivå i det lilla systemet bara har ett tillstånd. </para><example id="eip-241"><para id="eip-859">Som exempel kan vi ta en harmonisk oscillator med jämt utspridda energitillstånd med intervaller på 1 meV. Anta att värmebadet har β = 4 %/meV. I oscillatorns grundtillstånd med energi <foreign>E</foreign><sub>0</sub> = 0 har värmebadet en multiplicitet Ω<sub>0</sub>. Om oscillatorn är i sitt första exciterade tillstånd med energi <foreign>E</foreign><sub>1</sub> = 1 meV har det absorberat 1 meV från värmebadet. Badets multiplicitet har då minskat med 4 % och blir då Ω<sub>1</sub> = 0,96 Ω<sub>0</sub>. Om det överförs ytterligare en energikvant till oscillatorn så att den får energi <foreign>E</foreign><sub>2</sub> = 2 meV, minskar badets energi igen med 4 %. Badets multiplicitet blir då 0,96<sup>2</sup> Ω<sub>0</sub>. Vi kan upprätta en tabell. Man ser en geometrisk serie som kan skrivas som den negativ exponentiella funktionen Ω<sub>i</sub> = Ω<sub>0</sub> exp[-β<foreign>E<sub>i</sub></foreign>]. Med β=0,04 meV<sup>-1</sup> får man att multipliciteten har reducerats till Ω<sub>0</sub>/<foreign>e</foreign> vid 25 meV och till Ω<sub>0</sub>/<foreign>e</foreign><sup>2</sup> vid 50 meV.  </para><table id="eip-764" summary="Tabell över värmebadets multiplicitet för olika energinivåer i oscillatorn.">
+<tgroup cols="2"><tbody>
+  <row>
+    <entry>Energi (meV)</entry>
+    <entry>Multiplicitet</entry>
+  </row>
+  <row>
+    <entry>0</entry>
+    <entry>Ω<sub>0</sub></entry>
+  </row>
+  <row>
+    <entry>1</entry>
+    <entry>0,96 Ω<sub>0</sub></entry>
+  </row>
+  <row>
+    <entry>2</entry>
+    <entry>0,96<sup>2</sup> Ω<sub>0</sub></entry>
+  </row>
+  <row>
+    <entry>3</entry>
+    <entry>0,96<sup>3</sup> Ω<sub>0</sub></entry>
+  </row>
+  <row>
+    <entry>...</entry>
+    <entry>...</entry>
+  </row>
+  <row>
+    <entry>25</entry>
+    <entry>0,96<sup>25</sup> Ω<sub>0</sub>= 0,36 Ω<sub>0</sub></entry>
+  </row>
+  <row>
+    <entry>50</entry>
+    <entry>0,96<sup>50</sup> Ω<sub>0</sub> = 0,13 Ω<sub>0</sub></entry>
+  </row>
+</tbody>
+
+
+
+
+
+
+
+
+</tgroup><caption>Multiplicitet av ett värmebad med β = 4 %/meV för olika energinivåer av ett inbäddat system med E<sub>i</sub> = i meV.</caption>
+</table></example><para id="eip-336">Sannolikheten av att hitta det hela systemet i ett tillstånd där det lilla systemet har energi <foreign>E</foreign> är proportionell mot det hela systemets multiplicitet i detta tillstånd och därmed mot värmebadets multiplicitet. Utifrån definitionen av β som den relativa ändringen av Ω med energi ser man att man kan skriva:</para><equation id="eip-367"><m:math>
+<m:apply><m:eq/><m:apply>
+		<m:diff/>
+                <m:bvar><m:ci>E</m:ci></m:bvar>
+			<m:cn>Ω</m:cn>
+                </m:apply>
+<m:apply><m:minus/>
+<m:apply><m:times/><m:csymbol>β</m:csymbol><m:csymbol>Ω</m:csymbol></m:apply>
+</m:apply>
+</m:apply>
+</m:math>
+ </equation><para id="eip-365">Minustecknet är en konsekvens av att energin som tillförs det lilla systemet tas ifrån värmebadet. Minskningen av multipliciteten med energi är proportionell mot multipliciteten. Det är en differentialekvation av samma form som den för radioaktivt sönderfall eller som den för urladdning av en kapacitans. Lösningen är standard:</para><equation id="eip-138"><m:math>
+<m:apply><m:eq/><m:cn>Ω</m:cn><m:apply><m:times/><m:ci><m:msub><m:mo>Ω</m:mo><m:mo>0</m:mo></m:msub></m:ci><m:apply><m:exp/><m:apply><m:minus/><m:apply><m:times/><m:cn>β</m:cn><m:ci>E</m:ci></m:apply></m:apply></m:apply></m:apply></m:apply>
+</m:math></equation><para id="eip-271">där Ω<sub>0</sub> är en integrationskonstant. Eftersom sannolikheten är proportionell mot multipliciteten har vi härmed härlett Boltzmannfaktorn. Vi har gjort det utan att använda entropi eller Taylorutveckling. Vi har inte heller använt Lagrange-multiplikatorer. Det finns dock en subtil approximation i denna härledning: antagandet att det lilla systemet är urskiljbart. Därför leder det till den klassiska Boltzmannfördelningen och inte till en Bose- eller Fermi-Dirac-fördelning. Vårt sätt kallas konstant-<foreign>T</foreign>-härledningen <cite target-id="crossover">(Prentis 1999)</cite>. Det finns andra enkla härledningar av att fördelningen måste vara en negativ exponentiell funktion av energi <cite target-id="mueller">(Müller 2014 och referenser däri)</cite>, men den här härledningen har fördelen att den visar omedelbart att prefaktorn är samma β som i villkoret för termodynamisk jämvikt mellan makroskopiska system.</para></section><section id="eip-878"><title>Barometriska höjdformeln, bestämning av β</title><para id="eip-267">
+Vi kan använda Boltzmannfaktorn för att beskriva sannolikhetsfördelningen för att en kvävemolekyl befinner sig på en viss höjd ovanför jordytan. Detta ger atmosfärens densitet. Genom att jämföra med den barometriska höjdformeln kan man se hur stor β är vid vanliga temperaturer.
+</para><para id="eip-753">Det är allmänt känt att lufttrycket är lägre på hög höjd. Luften är glesare där. Den barometriska höjdformeln ger att trycket avtar exponentiellt, där man med en skalhöjd <foreign>h</foreign><sub>0</sub> anger hur starkt beroendet av tryck <foreign>p</foreign> på höjd <foreign>h</foreign> är:</para><equation id="eip-578"><m:math>
+<m:apply><m:eq/><m:ci>p</m:ci><m:apply><m:times/><m:ci><m:msub><m:mi>p</m:mi><m:mo>0</m:mo></m:msub></m:ci><m:apply><m:exp/><m:apply><m:minus/><m:apply><m:divide/><m:ci>h</m:ci><m:ci><m:msub><m:mi>h</m:mi><m:mo>0</m:mo></m:msub></m:ci></m:apply></m:apply></m:apply></m:apply></m:apply>
+</m:math></equation><para id="eip-167">Vi ser samma matematiska form som i Boltzmannfaktorn. I första approximation bortser vi från temperatursvariationer och tar att tryck och densitet är proportionella mot varandra. Energin av en molekyl med massa <foreign>m</foreign> i jordens gravitationsfält är <foreign>mgh</foreign> där <foreign>g</foreign> = 9,8 m/s<sup>2</sup>. Jämförelse av uttrycken visar att β = 1/(<foreign>mgh</foreign><sub>0</sub>). Nära jordytan är skalhöjden ungefär 8 km. Med massan lika med 28 amu för N<sub>2</sub> får man att β = 2,74.10<sup>20</sup> per joule eller 44 per eV eller 4 % per meV.</para><para id="eip-943">Parametern β är endast en funktion av temperatur men vi har inte visat än vad funktionen är. Sambandet med kelvinskalan är β = 1/(<foreign>kT</foreign>) där <foreign>k</foreign> är Boltzmanns konstant som ges av att trippelpunkten av is ligger vid <foreign>T</foreign> = 273,16 K per definition. Det stämmer också med observationen att atmosfärens skalhöjd är mindre där temperaturen är lägre och β är större. Man kan härleda sambandet mellan β och gastemperatursskalan (och därmed med kelvinskalan) genom härledning av gaslagarna.
+Eller så kan man bestämma magnetisk susceptibilitet som funktion av β och jämföra med Curies lag.</para></section></content>
+
+
+<bib:file> 
+  <bib:entry id="crossover"><bib:article>
+        <bib:author>J.J. Prentis; A.E. Andrus; T.J. Stasevich</bib:author>
+        <bib:title>Crossover from the exact factor to the Boltzmann factor</bib:title>
+        <bib:journal>Am. J. Phys.</bib:journal>
+        <bib:year>1999</bib:year>
+        <bib:volume>67</bib:volume>
+        <bib:pages>508</bib:pages>
+  </bib:article>
+</bib:entry> 
+<bib:entry id="mueller"><bib:article>
+        <bib:author>R. Müller</bib:author>
+        <bib:title>The Boltzmann factor: a simplified derivation</bib:title>
+        <bib:journal>Eur. J. Phys.</bib:journal>
+        <bib:year>2014</bib:year>
+        <bib:volume>35</bib:volume>
+        <bib:pages>055001</bib:pages>
+  </bib:article>
+  </bib:entry>
+</bib:file>
+
+</document>

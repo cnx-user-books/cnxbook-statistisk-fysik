@@ -1,0 +1,111 @@
+<document xmlns="http://cnx.rice.edu/cnxml" xmlns:bib="http://bibtexml.sf.net/" xmlns:m="http://www.w3.org/1998/Math/MathML">
+
+<title>Vad är temperatur?</title>
+<metadata xmlns:md="http://cnx.rice.edu/mdml">
+  <md:content-id>m63167</md:content-id>
+  <md:title>Vad är temperatur?</md:title>
+  <md:abstract>Before the year 1600, science was not aware of temperature as a measurable physical quantity. By the end of the 18th century, instruments had been developed to distinguished between temperature and heat. 
+In this module, the concept of temperature is derived from elementary and general considerations of statistics. Without referring to entropy or to logarithms it is shown that the fractional change in multiplicity with internal energy (β) must be the same for two systems in thermal equilibrium. This thermodynamic beta is a measure of temperature and can be called coldness.</md:abstract>
+  <md:uuid>9bdcec42-3796-4811-88af-c140e1134e3b</md:uuid>
+</metadata>
+
+<content>
+<section id="what_is_heat">
+  <title>Värme - vad är det?</title>
+<para id="heat1">Ordet värme används på olika sätt. I vardagsspråket står det i motsats till kyla. Båda dessa ord kan betyda något som man känner med kroppen och då ligger det nära den mätbara storheten temperatur. Ordböcker ger exempelmeningar som <foreign>fortsatt sol och värme</foreign>. Ordet används också för uppvärmning. Ett hus kan ha <foreign>vatten och värme</foreign>, man säger <foreign>värmen är på</foreign>, man kan <foreign>låta såsen sjuda på svag värme</foreign>. I sådana samband ligger begreppet nära den mätbara storheten energi, något som kan tillföras och transporteras, något som förbrukas och som man betalar för.</para><para id="heat2">När ordet används i betydelsen av en mängd värme, har fysiker böjt ordet som ett neutrum. I Norrstedts Svenska Ordbok har det fått ett separat lemma med exempelmeningen <foreign>det avgivna värmet bortgår genom ledning, konvektion eller strålning</foreign>. När man tillför värme till ett system, är det vanligt att systemets temperatur går upp. Detta är grunden till kalorimetrin, som utvecklades på 1700-talet. Ett system har en viss värmekapacitet, förhållandet mellan mängden tillfört värme och ökningen i temperatur. Som standard valde men ofta vatten:
+<list id="fs-id1434875"><item>en kalori definierades som den mängd värme som ökar temperaturen av en gram vatten med en grad Celsius;</item>
+<item>en Btu (<foreign>British thermal unit</foreign>) definierades som den mängd värme som ökar temperaturen av ett skålpund vatten (454 gram) med en grad Fahrenheit.</item>
+</list></para><para id="fs-id1350913">Därmed har man också enheter för att bestämma specifikt värme (specifik värmekapacitet). Vatten har per definition en specifik värmekapacitet på 1 kalori per gram per grad. Men vattnets specifika värme beror lite på temperatur. Därför lägger man till i definitionen mellan vilka temperaturer temperaturökningen sker.</para>
+
+<para id="fs-id1469656">Det förekommer också att temperaturen inte ökar när värme tillförs. Det sker vid fasövergångar, till exempel när is smälter eller när vatten kokar. Joseph Black introducerade år 1762 termen latent värme för denna värmemängd. Smältvärmet för is är 80 cal/g, kokvärmet är 540 cal/g.</para>
+
+<para id="fs-id1372945">Så kunde man mäta värmemängder och noggrant bestämma termiska egenskaper av många material. Dulong och Petit upptäckte år 1819 att man fick ungefär samma värde om man multiplicerade olika fasta ämnens värmekapacitet med ämnens relativa atomvikt som Dalton hade kommit fram till. En modern formulering av Dulong och Petits lag är att fasta ämnen har samma molära värmekapacitet (vid rumstemperatur).</para><para id="fs-id1483427">Man visste inte vad värme var, men det hindrade inte dåtidens vetenskapsmän att ge det ett namn: <foreign>caloric</foreign>. Det var en av den gamla fysikens imponderable vätskor, fluider som inte vägde något men som kunde bära elektrisk laddning eller värme eller ljus. Caloric flödade från en högre temperatur till en lägre temperatur. Ibland talade man även om <foreign>frigoric</foreign> som gav kyla, men det gick bra att förklara alla fenomen i kalorimetri med bara ett av dessa två <foreign>imponderiabilia</foreign>.</para></section>
+
+<section id="fs-id1486166">
+   <title>Energi</title>
+
+<para id="fs-id1206384">Det dröjde några decennier tills man var övertygad att värme var en form av mekanisk energi. Begreppet energi var inte framträdande hos till exempel Newton. Leibniz insåg att total <foreign>mv</foreign><sup>2</sup> var bevarad vid en elastisk stöt men vid den tiden hade man inte skillnaden mellan elastisk och inelastisk stöt klar för sig. Émilie du Châtelet visade att total mekanisk energi (kinetisk + potentiell) är bevarad om det inte finns friktion. Det var genom precisa mätningar av James Prescott Joule på 1840-talet att det blev klarlagt att värme är en form av mekanisk energi. I nutida enheter visade han att 1 kalori är lika med 4,18 joule.
+</para></section>
+
+<section id="eip-329">
+<title>Temperatur - att den finns</title>
+<para id="eip-406">Begreppet temperatur känns ofta svårt att förklara i mer grundläggande termer. Många finner begreppet självklart. Vi hör det i varje väderleksrapport, vi erfar själva hur varmt det är. Men innan år 1600 var begreppet okänt. Vid den tiden började forskare som Galileo och Drebbel observera ändringar i temperatur med termoskop, enkla instrument utan skalfördelning. Från 1600-talet finns några mätserier bevarade, men man skapade inga reproducerbara mätinstrument. Jag får en känsla att man på den tiden inte var medveten om att det fanns en storhet med ett objektivt värde att mäta. Det dröjde till början av 1700-talet.</para><figure id="Amonton"><media id="Degrees_of_cold" alt="Amonton_cold">
+    <image mime-type="image/png" src="../../media/Amonton_cold.png" height="350"/>
+  </media>
+  
+<caption>Amontons termometer från 1701 har två graderingar: en för värme (<foreign>degrés de chaleur</foreign>) och en för kyla (<foreign>degrés de froid</foreign>). (Fig. 3.2 i <cite target-id="Inventing">Chang 2004</cite>)
+  </caption></figure><para id="eip-id1170041687414">År 1701 publicerade båda Newton och Rømer en temperaturskala. Fahrenheit tillverkade de första pålitliga kvicksilvertermometrarna. Länge fanns det problem med att definiera reproducerbara fasta punkter för kalibrering. Det fanns också problemet att kalibrerade termometrar med olika ämnen inte överallt på skalan stämde överens med varandra. Man var inte överens om skalan skulle gå ner eller upp: Celsius hade först nollan vid temperaturen för kokande vatten och 100 vid smältande is <cite target-id="Inventing"/>, kanske var det vår Linné som vände skalan "rätt". Men man var överens om att det fanns något att mäta.</para><para id="eip-id1170037736766">Att det finns en mätbar storhet beskrivs i termodynamikens nollte lag. Den säger att om system A är i termodynamisk jämvikt med system B och om system B är i jämvikt med system C, att då även system A och system C är i termodynamisk jämvikt med varandra. Då flödar inget värme mellan dessa två system om man bringer dem i termisk kontakt med varandra. Så om system B är en termometer och den visar värden i kontakt först med system A och sedan med system C, så säger det något om vad som händer när A är i kontakt med C. Om det var lika flödar ingen energi, om de är olika blir det ett värmeflöde tills de blir lika. Detta är helt oberoende av vad system består av, om det är metall, vatten, glas eller luft. Detta var på inget sätt självklart kring år 1600.</para></section>
+
+<section id="eip-120">
+<title>Temperatur - vad det är</title>
+<para id="eip-499">Efter det hade klarlagts vad värme var i dess båda vardagliga betydelser (eller i alla fall hur man kunde mäta dessa storheter), kunde termodynamiken börja utveckla sig. Forskare som Carnot, Clausius och Maxwell gjorde intellektuella stordåd och viktiga upptäckter. Men vi ska inte följa den klassiska mekanikens väg, för den är svår och abstrakt.</para><para id="stat1">Istället ska vi använda statistisk mekanik för att komma fram till de viktigaste resultaten. Och även om det egentligen endast handlar om att räkna (<foreign>counting</foreign>), är det i många läroböcker matematiskt ganska komplicerat. Jag ska försöka hålla det så enkelt som möjligt i den här modulen. Och egentligen är det inte så svårt.</para><para id="stat2">Det är konceptuellt också lite lättare nu med kvantmekanik än med 1800-talets klassiska fysik. Vi är vana att tala om kvantmekaniska tillstånd utan att hålla reda på positioner och hastigheter. Vi har lättare att acceptera en grundläggande slumpmässighet. Vågfunktionens kollaps har nog något att göra med tidens riktning. Men jag ska inte försöka gå in på sådana mer filosofiska frågor.</para>
+
+<para id="stat3">Först ska vi reda ut vad temperatur egentligen är. Det är inte alla läroböcker som ger ett korrekt svar. Och de böcker som ger ett korrekt svar gör det i termer av entropi, ett ännu mer abstrakt begrepp. Vi ska se här på ett enklare sätt vad det innebär att två system har samma temperatur.</para>
+
+<para id="stat4">Ett grundläggande begrepp i statistisk mekanik är antalet mikrotillstånd av ett system som är förenligt med systemets makroskopiska parametrar som volym, massa, tryck, temperatur, osv. Vi kan tänka på kvantmekaniska tillstånd, till exempel tillstånd av en partikel i en låda. Redan för bara en enda partikel är det ett stort tal om lådan har makroskopiska mått och om det finns en liten bredd i energi. Om antalet partiklar i lådan är av liknande storleksordning som Avogadros tal (10<sup>23</sup>) blir antalet ofantligt. Antalet kallas multiplicitet och brukar betecknas med den grekiska bokstaven Omega Ω. Alla dessa tillgängliga mikrotillstånd antas inträffa med samma sannolikhet. Läs del I av Kjellanders <foreign>Vad är drivkraften i molekylernas värld?</foreign> <cite target-id="Kellander"/> för en pedagogisk framställning som ger konceptuell förståelse.</para><para id="stat5">Betrakta nu två makroskopiska system A och B. Multipliciteten av system A är Ω<sub>A</sub> och av system B är Ω<sub>B</sub>. Det finns en länk mellan dem som kan överföra värmeenergi men växelverkan antas vara tillräckligt svag så att den inte påverkar systemens multipliciteter. Multipliciteten av det totala systemet är därför produkt av delsystemernas: Ω<sub>AB</sub> = Ω<sub>A</sub>Ω<sub>B</sub>. Efter tillräckligt lång tid är delsystemen i termodynamisk jämvikt med varandra. De har alltså samma temperatur.</para><para id="stat6">Termisk energi är slumpmässiga rörelser. Om slumpmässiga värmeflöden genom länken inte påverkar temperaturen av system A och system B, betyder det att systemet är mest sannolikt, att det befinner sig i makrotillståndet med maximal multiplicitet Ω<sub>AB</sub>. 
+</para><figure id="Omega_AB">
+  <media id="Multiplicitet" alt="Omega_AB">
+    <image mime-type="image/png" src="../../media/Omega_AB.png" height="350"/>
+  </media>
+  <caption>
+     Multiplicitet av två system A och B som funktion av energiöverföring från jämviktsläget; även multipliciteten Ω<sub>AB</sub> visas (inte skalenligt).
+  </caption>
+</figure><para id="eip-983">Man kan göra detta matematiskt, att derivatan av Ω<sub>AB</sub> måste vara lika med noll vid ett maximum. Eller mer informellt genom att se att om Ω<sub>B</sub> ökar med 1 promille för ett litet energiflöde till B, att Ω<sub>A</sub> måste minska med en promille för att hålla produkten konstant. Slutsatsen är den relativa ändringen i Ω med energi måste vara lika för två system i termodynamisk jämvikt med varandra. Vi inför beteckningen β  </para><equation id="eip-225"><m:math>
+<m:apply><m:eq/><m:ci>β</m:ci>
+<m:apply><m:times/><m:apply><m:inverse/><m:cn>Ω</m:cn></m:apply>
+<m:apply>
+<m:diff/><m:bvar><m:ci>E</m:ci></m:bvar>
+		<m:cn>Ω</m:cn>
+                </m:apply>
+</m:apply></m:apply>
+</m:math>
+ </equation><para id="eip-376">som måste vara en funktion av endast temperatur. Beteckningen β är vanlig, storheten kallas ofta termodynamisk beta. Ibland kallas β också <foreign>coldness</foreign>, "kylighet" <cite target-id="BPC5">(Garrod 1995)</cite>. Om man har två system med olika β, tilltar det sammanlagda systemets Ω om värmeenergi flödar till delsystemet med större β, större kylighet, tills tillståndet med maximal Ω och maximal sannolikhet är uppnått.  </para><para id="eip-482">Vi ska se från tryckfördelningen i atmosfären att β = 4 %/meV vid vanliga temperaturer. Detta är ett ganska häpnadsväckande faktum. Det blir samma 4 % ökning i multiplicitet om vi nu tillför 1 meV i energi till en vattendroppe eller till en stor sjö eller till ett järnklot <cite target-id="BPC5">(Problem 4.3 i Reif 1965)</cite>. För att bestämma sambandet med kelvinskalan ska vi jämföra det teoretiska beroendet på β med det empiriska beroendet på konventionell temperatur. Enklast är det för paramagnetism där vi ska se att β är proportionell mot 1/<foreign>T</foreign>. Proportonalitetsfaktorn ges av Boltzmanns konstant. Dess värde beror på definitionen av vattnets trippeltemperatur som 273,16 kelvin.</para><para id="eip-559">En vanlig definition av temperatur i läroböcker är att β = d(ln Ω)/d<foreign>E</foreign>. Med kedjeregeln för derivatan av naturliga logaritmer ser man att det är samma som formeln ovan. Eller man använder entropi i definitionen, där entropi <foreign>S = k</foreign> ln Ω, där <foreign>k</foreign> är Boltzmanns konstant. Detta är också helt korrekt, men sådana definitioner är mindre intuitiva. Även är härledningen svårare att komma ihåg.</para><exercise id="eip-933"><problem id="eip-77">
+  <para id="eip-247">
+    Ge det matematiska beviset att den relativa ändringen av multipliciteten med värmetillförseln är lika för två system i jämvikt.
+  </para>
+</problem>
+
+<solution id="eip-263">
+  <para id="eip-775">Likställ derivatan av Ω<sub>AB</sub> med noll. Använd att Ω<sub>AB</sub> = Ω<sub>A</sub> x Ω<sub>B</sub> och använd regeln för derivatan av produkt. Flytta om termerna och akta tecken för värmeöverföring.</para></solution>
+</exercise><exercise id="eip-822"><problem id="eip-728">
+  <para id="eip-80">
+    I figuren, hur stor är skillnaden i storlek mellan system A och system B?
+  </para>
+</problem>
+
+<solution id="eip-790">
+  <para id="eip-539">Multipliciteten av system A är bara ungefär fem gånger så stor som Ω<sub>B</sub>. Det räcker alltså med att system A består av något som är lika stort som system B plus ett litet system med fem tillstånd.</para></solution>
+</exercise><exercise id="eip-470"><problem id="eip-163">
+  <para id="eip-126">
+    Om skalan i figuren var korrekt, hur skulle Ω<sub>AB</sub> se ut?
+  </para>
+</problem>
+
+<solution id="eip-937">
+  <para id="eip-425">Den skulle vara mycket smalare. Lutningen på omse sider om maximum blir ofantligt mycket större om man multiplicerar lutningen i figurens nedre del med ett ofantligt stort tal.
+  </para></solution>
+</exercise></section>
+</content>
+
+<bib:file> 
+    <bib:entry id="Inventing"> 
+        <bib:book> 
+           <bib:author>Hasok Chang</bib:author> 
+               <bib:title>Inventing Temperature</bib:title> <bib:publisher>Oxford University Press</bib:publisher> <bib:year>2004</bib:year> </bib:book> </bib:entry> 
+<bib:entry id="Garrod_coldness"> 
+        <bib:book> 
+           <bib:author>C. Garrod</bib:author> 
+               <bib:title>Statistical Mechanics and Thermodynamics</bib:title> <bib:publisher>Oxford University Press</bib:publisher> <bib:year>1995</bib:year> </bib:book> </bib:entry> 
+    <bib:entry id="Kellander"> 
+        <bib:book> 
+           <bib:author>Roland Kellander</bib:author> 
+               <bib:title>Vad är drivkraften i molekylernas värld?
+en molekylär introduktion till termodynamik</bib:title> <bib:publisher>Studentlitteratur AB</bib:publisher> <bib:year>2002</bib:year> </bib:book> </bib:entry> 
+    <bib:entry id="BPC5"> 
+        <bib:book> 
+           <bib:author>F. Reif</bib:author> 
+               <bib:title>Statistical Physics (Berkeley Physics Course vol. 5) </bib:title> <bib:publisher>McGraw-Hill</bib:publisher> <bib:year>1965</bib:year> </bib:book> </bib:entry> 
+ 
+</bib:file>
+
+</document>
